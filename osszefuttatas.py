@@ -29,10 +29,10 @@ def osszefuttatas(numb_list , merge_list , temp_list):
     
     print()
     print(temp_list)
-    while i < len(numb_list_sort ):
+    while i < len(numb_list_sort):
         temp_list.append(numb_list_sort[i])
         i += 1
-    while j < len(merge_list_sort ):
+    while j < len(merge_list_sort):
         temp_list.append(merge_list_sort[j])
         j += 1
     return temp_list
