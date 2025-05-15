@@ -33,4 +33,4 @@ def numb_List_elemei_ossze():
     for i in merge_list:
         print(merge_list.index(i), ". elem: ", i)
 
-print("\nTeljes lista (merge): ", merge_list)
+print("Teljes lista (merge): ", merge_list, "\n")

@@ -17,7 +17,7 @@ def osszefuttatas(numb_list , merge_list , temp_list):
             temp_list.append(numb_list_sort[i])
             i += 1
         else:
-            if numb_list_sort [i] > merge_list_sort[j]:
+            if numb_list_sort[i] > merge_list_sort[j]:
                 temp_list.append(merge_list_sort[j])
                 j += 1
             else:
@@ -25,7 +25,7 @@ def osszefuttatas(numb_list , merge_list , temp_list):
                 i += 1
                 temp_list.append(merge_list_sort[j])
                 j += 1
-        print(f"Folyamat ({j}): ", temp_list)
+        print(f"Folyamat ({j + 1}): ", temp_list)
     
     print()
     print(temp_list)
