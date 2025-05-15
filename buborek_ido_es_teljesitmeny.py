@@ -9,7 +9,7 @@ from buborek_rendezes_egy   import buborek_rendezes_egy
 from buborek_rendezes_ketto import buborek_rendezes_ketto
 from buborek_rendezes_harom  import buborek_rendezes_harom
 
-print("\Teljesítmény ellenőrzés folyamatban (buborékok)...")
+print("\nTeljesítmény ellenőrzés folyamatban (buborékok)...")
 
 ismetles = 30000
 bubor_ido_egy = idomeres(buborek_rendezes_egy, numb_list, ismetles)
