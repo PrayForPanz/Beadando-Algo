@@ -9,7 +9,7 @@ def kozvetlen_rendezes(numb_list):
                 temp = numb_list[j]
                 numb_list[j] = numb_list[i]
                 numb_list[i] = temp
-        # print(f"Folyamat ({i + 1}): ", numb_list) # Olyan gyors, hogy nincs értelme leírnom
+        # print(f"Folyamat ({i + 1}): ", numb_list)
     return numb_list
 
 # print("\nKözvetlen rendezés: ", kozvetlen_rendezes(numb_list))

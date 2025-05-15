@@ -21,16 +21,16 @@
 #első feladat
 import random
 
-numb_list = random.sample(range(1, 1000), 100)
+numb_list = random.sample(range(1, 1000), 5)
 def numb_List_elemei():
     for i in numb_list:
         print(numb_list.index(i), ". elem: ", i)
         
-# print("\nTeljes lista: ", numb_list)
+print("\nTeljes lista: ", numb_list)
 
 merge_list = random.sample(range(1, 1000), 5)
 def numb_List_elemei_ossze():
     for i in merge_list:
         print(merge_list.index(i), ". elem: ", i)
 
-# print("\nTeljes lista: ", merge_list)
+print("\nTeljes lista: ", merge_list)
